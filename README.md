@@ -1,5 +1,5 @@
 # Data-Science-Project_Job_Hackthon
-Agenda:
+# Agenda:
 • The main objective is to determine whether the employee will leave the company or 
 not. We can achieve this by using multiple algorithms/Statistical Techniques. To 
 determine whether the employee will leave the company or not, we have to analyse 
@@ -10,7 +10,7 @@ the respective predictors or supporting features like Age, City, Salary etc.
 • Data Preparation using Sklearn
 • Selecting and Training a few Machine Learning Models
 
-Problem Statement:
+# Problem Statement:
 Predicting Employee Attrition :
 In recent years, attention has increasingly been paid to human resources (HR), since worker 
 quality and skills represent a growth factor and a real competitive advantage for companies. 
@@ -20,7 +20,6 @@ depends on staff retention. Losing employees frequently impacts the morale of th
 organization and hiring new employees is more expensive than retaining existing ones.
 You are working as a data scientist with HR Department of a large insurance company 
 focused on sales team attrition. Insurance sales teams help insurance companies generate 
-Jyothi Prakash Kalla 9380611851 kallajyothiprakash@gmail.com
 new business by contacting potential customers and selling one or more types of insurance. 
 The department generally sees high attrition and thus staffing becomes a crucial aspect.
 To aid staffing, you are provided with the monthly information for a segment of 
@@ -32,7 +31,7 @@ be leaving the organization in the upcoming two quarters (01 Jan 2018 - 01 July
 3. Historical data regarding the performance of the employee (Quarterly rating, 
 Monthly business acquired, designation, salary)
 
-AIM:
+# AIM:
 There are very few people who begin and end their careers in one company. Most 
 people move on after a time, or the company forces them to move on with an 
 involuntary termination. People leaving organizations seems like a quite 
@@ -52,18 +51,18 @@ Grouping is performed on Employee id by averaging the Total Business Value as
 there are repeated records with same Employee Id with only Total Business Value 
 changing.
 
-Splitting the Data: 
+# Splitting the Data: 
 We will split the data into training and testing. Here, we are splitting the train data into 
 75% and test data into 25%. We achieved this by using train_test_split in the sklearn 
 library.
 
-Statistical Techniques/Algorithms:
+# Statistical Techniques/Algorithms:
 • For the current dataset, we used multiple machine learning algorithms like 
 DecisionTree Classifier, RandomForest Classifier, etc. • But, svm/Support Vector 
 Classifier gives us maximum accuracy(73.07%) with respect to public test data. • So, 
 I am using the svm algorithm to predict whether the employee will leave the 
 company or not.
 
-Further Improvements: 
+# Further Improvements: 
 We can further improve our model by applying different hyperparameter tuning 
 techniques for respective algorithms.
