@@ -4,6 +4,7 @@
 not. We can achieve this by using multiple algorithms/Statistical Techniques. To 
 determine whether the employee will leave the company or not, we have to analyse 
 the respective predictors or supporting features like Age, City, Salary etc. 
+
 • Pre-requisites and Resources
 • Data Collection and Problem Statement
 • Exploratory Data Analysis with Pandas and NumPy
