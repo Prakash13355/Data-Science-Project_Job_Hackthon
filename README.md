@@ -1,4 +1,4 @@
-# Data-Science-Project_Job_Hackthon
+# EMPLOYEE ATTRITION
 # Agenda:
 • The main objective is to determine whether the employee will leave the company or 
 not. We can achieve this by using multiple algorithms/Statistical Techniques. To 
