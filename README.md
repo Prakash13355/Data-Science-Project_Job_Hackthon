@@ -45,7 +45,6 @@ analysed each feature to know the Insights of that feature. I achieved this by u
 different plots like Histogram, Boxplot, countplot etc • I used the Standard Scaler to 
 standardize the numerical features, it transformed the numerical features values 
 between the range -1 to 1 • The categorical features are labelled into the numerical 
-Jyothi Prakash Kalla 9380611851 kallajyothiprakash@gmail.com
 values using Label Encoder • In the current dataset, the values of Target variable 
 are unbalanced. To balance the data, we used SMOTE method to balance the data • 
 Grouping is performed on Employee id by averaging the Total Business Value as 
